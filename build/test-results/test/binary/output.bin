@@ -1,0 +1,27 @@
+Request method:	POST
+.Request URI:	https://api-dev.pitik.id/v2/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
++    "username": "siti.wulandari@pitik.id",
+    "password": "12345qa"
+}
+{
+    "code": 200,
+    "data": {
+6        "id": "ee4bd16e-5ce1-4e9d-acc3-c64514a5c220",
+Î        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVlNGJkMTZlLTVjZTEtNGU5ZC1hY2MzLWM2NDUxNGE1YzIyMCIsInJvbGVJZCI6IjBkZmJiYmVkLWU1ZWMtNDM2MC05ZjM0LTJiNzdkNGNjZDM0NiIsImlhdCI6MTY5OTg1MjUyMywiZXhwIjoxNjk5OTM4OTIzLCJhdWQiOiJodHRwczovL2FwaS5waXRpay5kZXYvdjIiLCJpc3MiOiJwaXRpayJ9.o5BPNuimsZ28UARjO62yKloic8RIRV0y2imMa9Ha8HA",
+        "acceptTnc": 0,
+Õ        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVlNGJkMTZlLTVjZTEtNGU5ZC1hY2MzLWM2NDUxNGE1YzIyMCIsInJvbGVJZCI6IjBkZmJiYmVkLWU1ZWMtNDM2MC05ZjM0LTJiNzdkNGNjZDM0NiIsImlhdCI6MTY5OTg1MjUyMywiZXhwIjoxNzAwMDI1MzIzLCJhdWQiOiJodHRwczovL2FwaS5waXRpay5kZXYvdjIiLCJpc3MiOiJwaXRpayJ9.wx-kCrMJx_dkIrXkywZbxJ6a0NzmkcuxVAAvHV7tuDk",
+        "action": null
+    }
+}
+The response status is 200
